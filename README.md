@@ -12,3 +12,4 @@ shuf
 cat
 paste
 and lots of less :)
+These lists are all free to use and play with. Have fun. Let's make computers fun again.
