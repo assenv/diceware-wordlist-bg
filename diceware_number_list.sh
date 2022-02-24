@@ -21,7 +21,7 @@ printf "                           ."
 sleep $delay
 printf "."
 sleep $delay
-printf "."
+printf ".\n"
 sleep $delay
 printf "                     done generating\n"
 sleep $delay
