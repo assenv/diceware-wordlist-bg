@@ -14,8 +14,7 @@ printf " https://theworld.com/~reinhold/diceware.html \n"
 echo 
 printf "                       number list\n"
 sleep $delay
-printf "                     generating list\n"
-printf "                          11111\n                          11112\n"
+printf "                     generating sequence list\n"
 seq 11111 66666 > tmp_numbers.asc
 sleep $delay
 printf "                           ."
@@ -24,10 +23,9 @@ printf "."
 sleep $delay
 printf "."
 sleep $delay
-printf "\n                          66667\n                          66666\n"
 printf "                     done generating\n"
 sleep $delay
-printf "            removing digits 0,7,8,9 from list\n"
+printf "            removing digits 0,7,8,9 from seq list\n"
 grep -v -e 0 -e 7 -e 8 -e 9 tmp_numbers.asc > numbers.asc
 sleep $delay
 printf "                       cleaning up\n"
