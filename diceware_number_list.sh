@@ -10,7 +10,7 @@ printf " #     # # #      #####  #    # #    # #    # #####  \n"
 printf " #     # # #      #      # ## # ###### #####  #      \n"
 printf " #     # # #    # #      ##  ## #    # #   #  #      \n"
 printf " ######  #  ####  ###### #    # #    # #    # ###### \n"
-printf " https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages%7Coutline"
+printf " https://theworld.com/~reinhold/diceware.html \n"
 echo 
 printf "                       number list\n"
 sleep $delay
